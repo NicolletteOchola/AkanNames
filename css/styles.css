@@ -6,8 +6,8 @@ body {
   background-position: center;
 }
 
-.form {
-  width: ;
-  paddin
-
+.container {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
 }
