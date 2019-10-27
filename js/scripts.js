@@ -1,6 +1,7 @@
 function akanName {
-  var day = document.getElementById ("day").value;
-  var month = document.getElementById ("month").value;
-  var year = document.getElementById ("year").value;
- 
+  var day = parseInt(document.getElementById ("day").value);
+  var month = parseInt(document.getElementById ("month").value);
+  var year = parseInt(document.getElementById ("year").value);
+  
+
 }
