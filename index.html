@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Akan NAmes</title>
+  <title>Akan Names</title>
 </head>
 <body>
   <div class="container">
@@ -14,15 +14,15 @@
   <div class="form">
     <form>
       <p>Please fill in the details of your date of birth. We promise not to tell anyone!</p>
-      <input type="text" placeholder="Day" id="day" required >       
-      <input type="text" placeholder="Month" id="month"  required>      
-      <input type="text" placeholder="Year"  id="year" required>
-      <input type="radio" name="Gender"  value="Male"  id="gender"  required> Male <br>
-      <input type="radio" name="Gender" value="Female" id="gender" required> Female <br>
-      <button>Submit</button>
+      <input type="number" placeholder="Day" id="day" min="1" max="31" required >       
+      <input type="number" placeholder="Month" id="month" min="1" max="12" required>      
+      <input type="number" placeholder="Year" id="year" min="1900" required>
+      <input type="radio" name="Gender" value="Male" required> Male <br>
+      <input type="radio" name="Gender" value="Female" required> Female <br>
+      <button onclick="displayAkanName()">Submit</button>
     </form>
   </div>
   
-  <script src="/js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
