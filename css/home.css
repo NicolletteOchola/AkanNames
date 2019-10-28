@@ -22,3 +22,8 @@ body {
   text-decoration: none;
   color: #ffffff36;
 }
+
+.text a:hover { 
+  color: red;
+}
+
