@@ -48,10 +48,15 @@ body {
   width: 40%;
 }
 
+.form button:hover {
+  color: green;
+}
+
 .form p {
   color: rgba(220, 230, 231, 0.918);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
+  padding-bottom: 15px;
 }
 
 .form a {
@@ -68,3 +73,8 @@ body {
   color: red;
 }
 
+.gender {
+  padding: 20px;
+  color: rgba(220, 230, 231, 0.918);
+  margin: 0;
+}
