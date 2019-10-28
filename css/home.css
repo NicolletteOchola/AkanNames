@@ -2,7 +2,6 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("/Images/Woman\ with\ headwrap.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   background-position: center;
 }
 .text {
@@ -27,3 +26,10 @@ body {
   color: red;
 }
 
+.quote {
+  color: #ffffff86;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 50px;
+  font-size: 15px;
+}
