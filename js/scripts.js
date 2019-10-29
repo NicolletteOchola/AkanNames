@@ -21,14 +21,15 @@ function getAkanName(dayIndex, gender)
 
 function invlid(day, month)
 {
-  if ( month < 1 || month > 12 || month == 2 && day > 29 ) {
-    alert("Month entered is Invalid")  ;
+  if ( day < 1 || day > 31) { 
+    alert("Day entered is Invalid");
     return false;
   }
-  else if ( day < 1 || day > 31) {
-    alert("Day entered is invalid");
+  else if ( month < 1 || month > 12 || month == 2 && day > 29 ) {
+    alert("Month entered is invalid");
     return false;
-  }else
+  }
+  else
   {
     return true;
   }
