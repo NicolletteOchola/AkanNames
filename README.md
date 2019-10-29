@@ -8,6 +8,9 @@ This is a web application containing two web pages A landing page that gives a b
 - HTML
 - CSS
 - Java Script
+## BDD
+This Web application has an introductory page which the user interacts with and clicks on a link to the next page where a forn is provided for them to fill in their birth date deatails. 
+The application then responds with the corresponding Akan name. If any of the fields are invalid an alert will notify the user to change and correct the invalid field. 
 ## SCREENSHOTS
 <img src = "Images/AkanPage0.png">
 

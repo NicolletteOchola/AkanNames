@@ -11,16 +11,6 @@ function displayAkanName()
   alert("Your Akan name is: " + getAkanName(dayIndex, gender));
   }
 }
-
-// function getDayIndex()
-// {
-//   var day = parseInt(document.getElementById ("day").value);
-//   var month = parseInt(document.getElementById ("month").value);
-//   var year = parseInt(document.getElementById ("year").value);
-
-//   return new Date(year, month - 1, day).getDay();
-// }
-
 function getAkanName(dayIndex, gender)
 {
   var boyNames = ["Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
@@ -34,10 +24,12 @@ function invlid(day, month)
   if ( month < 1 || month > 12 || month == 2 && day > 29 ) {
     alert("Month entered is Invalid")  ;
     return false;
-  }else if ( day < 1 || day > 31) {
-    return false;
+  }
+  else if ( day < 1 || day > 31) {
     alert("Day entered is invalid");
-  }else{
+    return false;
+  }else
+  {
     return true;
   }
 }
